@@ -9,7 +9,7 @@
     </select>
 
     <select id="getRandom" resultType="Image">
-        SELECT <include refid="Base_Column_List" /> FROM pic_info ORDER BY RAND() LIMIT 1
+        SELECT <include refid="Base_Column_List" /> FROM pic_info WHERE rating = 1 ORDER BY RAND() LIMIT 1
     </select>
 
 
