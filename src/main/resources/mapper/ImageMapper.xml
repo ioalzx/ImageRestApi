@@ -12,5 +12,93 @@
         SELECT <include refid="Base_Column_List" /> FROM pic_info WHERE rating = 1 ORDER BY RAND() LIMIT 1
     </select>
 
+    <select id="findRandom" resultType="Image">
+        SELECT <include refid="Base_Column_List" /> FROM pic_info
+        <where>
+
+            <if test = "qp.tagList != null">
+                <foreach collection="qp.tagList" index=""  item="pair" open="(" close=")">
+                    <if test="pair.left == 1">
+                        tags LIKE concat('%',#{pair.right},'%')
+                    </if>
+                    <if test="pair.left == 2">
+                        (
+                    </if>
+                    <if test="pair.left == 3">
+                        )
+                    </if>
+                    <if test="pair.left == 4">
+                        AND
+                    </if>
+                    <if test="pair.left == 5">
+                        OR
+                    </if>
+                    <if test="pair.left == 6">
+                        tags NOT LIKE concat('%',#{pair.right},'%')
+                    </if>
+                </foreach>
+            </if>
+
+            <if test = "qp.cat != null">
+                AND cat = #{qp.cat}
+            </if>
+
+            <if test = "qp.wp != null">
+                <if test = "qp.wp.left &gt;= 0">
+                    AND width &gt; #{qp.wp.left}
+                </if>
+
+                <if test = "qp.wp.right &gt;= 0">
+                    AND width &lt; #{qp.wp.right}
+                </if>
+            </if>
+
+            <if test = "qp.hp != null">
+                <if test = "qp.hp.left &gt;= 0">
+                    AND height &gt; #{qp.hp.left}
+                </if>
+
+                <if test = "qp.hp.right &gt;= 0">
+                    AND height &lt; #{qp.hp.right}
+                </if>
+            </if>
+
+            <if test = "qp.fp != null">
+                <if test = "qp.fp.left &gt;= 0">
+                    AND size &gt; #{qp.fp.left}
+                </if>
+
+                <if test = "qp.fp.right &gt;= 0">
+                    AND size &lt; #{qp.fp.right}
+                </if>
+            </if>
+
+            <if test = "qp.ratingList != null">
+                <foreach collection="qp.ratingList" index="" item="r" open="AND (" close=")" separator="OR">
+                    rating = #{r}
+                </foreach>
+            </if>
+
+            <if test = "qp.shape != null">
+                <choose>
+                    <when test="qp.shape == 'mobile' ">
+                        AND height &gt; width
+                    </when>
+                    <when test="qp.shape == 'desktop' ">
+                        AND height &lt; width
+                    </when>
+                    <when test="qp.shape == 'mobile' ">
+                        AND height = width
+                    </when>
+                    <otherwise>
+                        AND height &lt; width
+                    </otherwise>
+                </choose>
+            </if>
+
+        </where>
+        ORDER BY RAND() LIMIT 1
+    </select>
+
 
 </mapper>

@@ -24,4 +24,12 @@ public class ImageInfoController {
         return new ImageWithTags(imageService.getRandom()) ;
     }
 
+    @GetMapping("/findrandom")
+    public ImageWithTags findRandom(@RequestParam(value = "cat", required = false) String cat, @RequestParam(value = "w", required = false) String w, @RequestParam(value = "h", required = false) String h,
+                                    @RequestParam(value = "fsize", required = false) String fsize, @RequestParam(value = "rating", required = false) String rating,
+                                    @RequestParam(value = "tags", required = false) String tags, @RequestParam(value = "shape", required = false) String shape,
+                                    @RequestParam(value = "trans", required = false) Boolean trans) {
+        return new ImageWithTags(imageService.findRandom(imageService.getImageQueryParams(cat, w, h , fsize, rating, tags, shape, trans ))) ;
+    }
+
 }
