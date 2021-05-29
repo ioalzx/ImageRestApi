@@ -1017,3 +1017,69 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 2021-05-29 11:31:02.466  INFO 10448 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2021-05-29 11:31:02.466  INFO 10448 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2021-05-29 11:31:02.692  INFO 10448 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-29 13:04:50.435  INFO 1216 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 16.0.1 on DESKTOP-BV1S3SU with PID 1216 (C:\Users\zxc21\IdeaProjects\ImageRestApi\target\classes started by zxc21 in C:\Users\zxc21\IdeaProjects\ImageRestApi)
+2021-05-29 13:04:50.437  INFO 1216 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-05-29 13:04:50.469  INFO 1216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-29 13:04:50.469  INFO 1216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-29 13:04:51.303  INFO 1216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-29 13:04:51.308  INFO 1216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-29 13:04:51.308  INFO 1216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-29 13:04:51.353  INFO 1216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-29 13:04:51.353  INFO 1216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 883 ms
+2021-05-29 13:04:51.823  INFO 1216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-29 13:04:51.825  INFO 1216 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-29 13:04:51.860  INFO 1216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-29 13:04:51.869  INFO 1216 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 1.799 seconds (JVM running for 2.404)
+2021-05-29 13:04:52.075  INFO 1216 --- [RMI TCP Connection(1)-172.18.176.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-29 13:04:52.075  INFO 1216 --- [RMI TCP Connection(1)-172.18.176.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-29 13:04:52.076  INFO 1216 --- [RMI TCP Connection(1)-172.18.176.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-29 13:04:52.090  INFO 1216 --- [RMI TCP Connection(3)-172.18.176.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-29 13:04:53.259  INFO 1216 --- [RMI TCP Connection(3)-172.18.176.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-29 13:23:37.512  INFO 5492 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 16.0.1 on DESKTOP-BV1S3SU with PID 5492 (C:\Users\zxc21\IdeaProjects\ImageRestApi\target\classes started by zxc21 in C:\Users\zxc21\IdeaProjects\ImageRestApi)
+2021-05-29 13:23:37.514  INFO 5492 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-05-29 13:23:37.538  INFO 5492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-29 13:23:37.538  INFO 5492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-29 13:23:38.158  INFO 5492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-29 13:23:38.163  INFO 5492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-29 13:23:38.163  INFO 5492 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-29 13:23:38.203  INFO 5492 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-29 13:23:38.203  INFO 5492 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 664 ms
+2021-05-29 13:23:38.622  WARN 5492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-05-29 13:23:38.624  INFO 5492 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-29 13:23:38.654  WARN 5492 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2021-05-29 13:23:38.658  INFO 5492 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-29 13:23:38.667  INFO 5492 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-29 13:23:38.675 ERROR 5492 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2021-05-29 13:29:28.190  INFO 21308 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 16.0.1 on DESKTOP-BV1S3SU with PID 21308 (C:\Users\zxc21\IdeaProjects\ImageRestApi\target\classes started by zxc21 in C:\Users\zxc21\IdeaProjects\ImageRestApi)
+2021-05-29 13:29:28.192  INFO 21308 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-05-29 13:29:28.216  INFO 21308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-29 13:29:28.217  INFO 21308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-29 13:29:28.931  INFO 21308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-29 13:29:28.937  INFO 21308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-29 13:29:28.937  INFO 21308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-05-29 13:29:28.978  INFO 21308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-29 13:29:28.979  INFO 21308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 762 ms
+2021-05-29 13:29:29.427  INFO 21308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-29 13:29:29.430  INFO 21308 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-29 13:29:29.462  INFO 21308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-29 13:29:29.471  INFO 21308 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 1.534 seconds (JVM running for 2.061)
+2021-05-29 13:29:29.992  INFO 21308 --- [RMI TCP Connection(1)-192.168.192.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-29 13:29:30.004  INFO 21308 --- [RMI TCP Connection(3)-192.168.192.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-29 13:29:30.004  INFO 21308 --- [RMI TCP Connection(3)-192.168.192.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-29 13:29:30.005  INFO 21308 --- [RMI TCP Connection(3)-192.168.192.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-29 13:29:31.171  INFO 21308 --- [RMI TCP Connection(1)-192.168.192.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

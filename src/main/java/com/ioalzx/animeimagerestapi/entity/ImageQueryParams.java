@@ -12,11 +12,11 @@ public class ImageQueryParams {
 
 
     private String cat = "Anime";
-    private Pair<Integer, Integer> wp;
-    private Pair<Integer, Integer> hp;
-    private Pair<Integer, Integer> fp;
-    private List<Integer> ratingList;
-    private List<Pair<Integer, String>> tagList;
+    private final Pair<Integer, Integer> wp;
+    private final Pair<Integer, Integer> hp;
+    private final Pair<Integer, Integer> fp;
+    private final List<Integer> ratingList;
+    private final List<Pair<Integer, String>> tagList;
     private String shape = "";
     private Boolean trans = false;
 
