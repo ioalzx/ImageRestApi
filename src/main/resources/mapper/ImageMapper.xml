@@ -79,7 +79,7 @@
                 </foreach>
             </if>
 
-            <if test = "qp.shape != null">
+            <if test = "qp.shape != null and qp.shape != 'all'">
                 <choose>
                     <when test="qp.shape == 'mobile' ">
                         AND height &gt; width
@@ -87,7 +87,7 @@
                     <when test="qp.shape == 'desktop' ">
                         AND height &lt; width
                     </when>
-                    <when test="qp.shape == 'mobile' ">
+                    <when test="qp.shape == 'square' ">
                         AND height = width
                     </when>
                     <otherwise>
