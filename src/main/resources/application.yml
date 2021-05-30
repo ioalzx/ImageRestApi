@@ -8,6 +8,9 @@ spring:
     username: ioalzx
     password: GZc21306ZzT1
 
+  codec:
+    max-in-memory-size: 50MB
+
 #mybatis的相关配置
 mybatis:
   #mapper配置文件
@@ -16,4 +19,4 @@ mybatis:
   #开启驼峰命名
   configuration:
     map-underscore-to-camel-case: true
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

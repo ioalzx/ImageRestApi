@@ -93,19 +93,19 @@ public class ImageQueryParams {
         List<Pair<Integer, String>> result = new ArrayList<Pair<Integer, String>>();
 
         for ( String s : strElements ) {
-            if (s.equals("")) {
+            if ("".equals(s)) {
                 continue;
             }
-            else if ( s.equals("(") ) {
+            else if ( "(".equals(s) ) {
                 result.add(new Pair<>(2, ""));
             }
-            else if ( s.equals(")") ) {
+            else if ( ")".equals(s) ) {
                 result.add(new Pair<>(3, ""));
             }
-            else if ( s.equals("*") ) {
+            else if ( "*".equals(s) ) {
                 result.add(new Pair<>(4, ""));
             }
-            else if ( s.equals("^") ) {
+            else if ( "^".equals(s) ) {
                 result.add(new Pair<>(5, ""));
             }
             else if (s.startsWith("!")) {

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 @Service("imageService")
-public class ImageServiceimpl implements ImageService {
+public class ImageServiceImpl implements ImageService {
 
     @Autowired
     private ImageMapper imageMapper;
