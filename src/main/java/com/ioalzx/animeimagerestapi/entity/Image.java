@@ -1,8 +1,5 @@
 package com.ioalzx.animeimagerestapi.entity;
 
-import org.hibernate.validator.constraints.Range;
-
-
 public class Image {
     private String dhash;
     private String cat;

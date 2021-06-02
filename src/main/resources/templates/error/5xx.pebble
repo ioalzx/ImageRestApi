@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=970">
+    <meta name="format-detection" content="telephone=no">
+    <title>Error 500 (Server Error)</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus+Slab">
+    <link rel="stylesheet" href="https://s.pximg.net/www/css/global.css?04cf63f9b4127ecc5b8ad833e1ffa434">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s.pximg.net/common/images/apple-touch-icon.png?20200601">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://s.pximg.net/www/css/global_2.css?230e6226a4a60912201b243d20be747f">
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="https://s.pximg.net/www/css/ie9.css?e2871da6753d43533b513cdac2d82a38">
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://s.pximg.net/www/css/ie.css?beb3f35140ed7140d4ae95ca04999e3f">
+    <![endif]-->
+    <link rel="stylesheet" href="https://s.pximg.net/www/css/404.css?4b5c57ca54ee3160e77c1ae925d5f8dd">
+
+</head>
+<body>
+<a href="/en/">
+    <div class="byakuzou">
+        <div class="text-container">
+            <h1 class="title">500</h1>
+            <p class="summary">Something Wrong with me -_-</p>
+        </div>
+        <div class="kujira">
+            <img src="https://s.pximg.net/www/images/404-kujira.png" width="721" height="426">
+        </div>
+        <div class="umi"></div>
+        <div class="zou">
+            <img src="https://s.pximg.net/www/images/404-zou.png" width="685" height="440">
+        </div>
+    </div>
+
+</a>
+</body>
+</html>
