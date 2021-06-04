@@ -24,10 +24,10 @@ import java.io.OutputStream;
 public class ImageGetterController {
 
     @Autowired
-    private ImageService imageService;
+    TagTranslation tagTranslation;
 
     @Autowired
-    TagTranslation tagTranslation;
+    private ImageService imageService;
 
     @GetMapping("/getrandom")
     public String getRandom(HttpServletRequest httpServletRequest) {

@@ -12,8 +12,8 @@ import com.tencentcloudapi.tmt.v20180321.models.TextTranslateResponse;
 
 public class TencentSDKTests {
 
-    public static void main(String [] args) {
-        try{
+    public static void main(String[] args) {
+        try {
 
             Credential cred = new Credential("AKID3wfEcp4ncR5ub8tIJDyZ9bsyuOkxbC5p", "kRzMZaR7HOMBpOm0kMmV4ThkjZEi5I1e");
 
@@ -31,12 +31,12 @@ public class TencentSDKTests {
             req.setTarget("en");
             req.setProjectId(0L);
 
-            long startTime=System.currentTimeMillis();
+            long startTime = System.currentTimeMillis();
 
             TextTranslateResponse resp = client.TextTranslate(req);
 
-            long endTime=System.currentTimeMillis();
-            System.out.println("程序运行时间： "+(endTime-startTime)+"ms");
+            long endTime = System.currentTimeMillis();
+            System.out.println("程序运行时间： " + (endTime - startTime) + "ms");
             System.out.println(TextTranslateResponse.toJsonString(resp));
         } catch (TencentCloudSDKException e) {
             System.out.println(e.toString());

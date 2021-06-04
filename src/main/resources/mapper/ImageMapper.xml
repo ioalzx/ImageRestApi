@@ -2,22 +2,28 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.ioalzx.animeimagerestapi.mapper.ImageMapper">
 
-    <sql id="Base_Column_List" > dhash, cat, width, height, size, rating, tags </sql>
+    <sql id="Base_Column_List"> dhash, cat, width, height, size, rating, tags </sql>
 
     <select id="findOne" resultType="com.ioalzx.animeimagerestapi.entity.Image">
-        SELECT <include refid="Base_Column_List" /> FROM pic_info WHERE dhash = #{dhash}
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM pic_info WHERE dhash = #{dhash}
     </select>
 
     <select id="getRandom" resultType="com.ioalzx.animeimagerestapi.entity.Image">
-        SELECT <include refid="Base_Column_List" /> FROM pic_info WHERE rating = 1 ORDER BY RAND() LIMIT 1
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM pic_info WHERE rating = 1 ORDER BY RAND() LIMIT 1
     </select>
 
     <select id="findRandom" resultType="com.ioalzx.animeimagerestapi.entity.Image">
-        SELECT <include refid="Base_Column_List" /> FROM pic_info
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM pic_info
         <where>
 
-            <if test = "qp.tagList != null">
-                <foreach collection="qp.tagList" index=""  item="pair" open="(" close=")">
+            <if test="qp.tagList != null">
+                <foreach collection="qp.tagList" index="" item="pair" open="(" close=")">
                     <if test="pair.left == 1">
                         tags LIKE concat('%',#{pair.right},'%')
                     </if>
@@ -39,47 +45,47 @@
                 </foreach>
             </if>
 
-            <if test = "qp.cat != null">
+            <if test="qp.cat != null">
                 AND cat = #{qp.cat}
             </if>
 
-            <if test = "qp.wp != null">
-                <if test = "qp.wp.left &gt;= 0">
+            <if test="qp.wp != null">
+                <if test="qp.wp.left &gt;= 0">
                     AND width &gt; #{qp.wp.left}
                 </if>
 
-                <if test = "qp.wp.right &gt;= 0">
+                <if test="qp.wp.right &gt;= 0">
                     AND width &lt; #{qp.wp.right}
                 </if>
             </if>
 
-            <if test = "qp.hp != null">
-                <if test = "qp.hp.left &gt;= 0">
+            <if test="qp.hp != null">
+                <if test="qp.hp.left &gt;= 0">
                     AND height &gt; #{qp.hp.left}
                 </if>
 
-                <if test = "qp.hp.right &gt;= 0">
+                <if test="qp.hp.right &gt;= 0">
                     AND height &lt; #{qp.hp.right}
                 </if>
             </if>
 
-            <if test = "qp.fp != null">
-                <if test = "qp.fp.left &gt;= 0">
+            <if test="qp.fp != null">
+                <if test="qp.fp.left &gt;= 0">
                     AND size &gt; #{qp.fp.left}
                 </if>
 
-                <if test = "qp.fp.right &gt;= 0">
+                <if test="qp.fp.right &gt;= 0">
                     AND size &lt; #{qp.fp.right}
                 </if>
             </if>
 
-            <if test = "qp.ratingList != null">
+            <if test="qp.ratingList != null">
                 <foreach collection="qp.ratingList" index="" item="r" open="AND (" close=")" separator="OR">
                     rating = #{r}
                 </foreach>
             </if>
 
-            <if test = "qp.shape != null and qp.shape != 'all'">
+            <if test="qp.shape != null and qp.shape != 'all'">
                 <choose>
                     <when test="qp.shape == 'mobile' ">
                         AND height &gt; width

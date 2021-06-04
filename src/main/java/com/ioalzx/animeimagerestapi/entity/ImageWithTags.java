@@ -10,14 +10,6 @@ public class ImageWithTags {
     private String[] tags;
     private String url;
 
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
     public ImageWithTags(Image img) {
         this.dhash = img.getDhash();
         this.cat = img.getCat();
@@ -28,6 +20,14 @@ public class ImageWithTags {
         this.tags = img.getTags().split("\n");
 
         this.url = img.getRating() > 2 ? (String.format("https://d1xeww9d8c20o5.cloudfront.net/%s/%s.jpg", this.cat, this.dhash)) : (String.format("https://images.ioalzx.site/%s/%s.jpg", this.cat, this.dhash));
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     public String getDhash() {

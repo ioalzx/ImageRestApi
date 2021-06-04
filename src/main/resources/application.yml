@@ -7,6 +7,19 @@ spring:
     url: jdbc:mysql://gz-cynosdbmysql-grp-n6eu2fv9.sql.tencentcdb.com:22308/anime_imagedb?characterEncoding=utf-8&useSSL=false
     username: ioalzx
     password: GZc21306ZzT1
+  redis:
+    database: 0
+    host: 9.134.106.99
+    port: 6380
+    password: GZc21306ZzT1
+    timeout: 1000
+    jedis:
+      pool:
+        max-active: 200
+        max-wait: -1
+        max-idle: 10
+        min-idle: 0
+
 
   codec:
     max-in-memory-size: 50MB

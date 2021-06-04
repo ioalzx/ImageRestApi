@@ -15,10 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class ImageInfoController {
 
     @Autowired
-    private ImageService imageService;
-
-    @Autowired
     TagTranslation tagTranslation;
+    @Autowired
+    private ImageService imageService;
 
     @GetMapping("/findbydhash")
     public ImageWithTags findOne(@RequestParam(value = "dhash") String dhash) {

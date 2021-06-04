@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <!-- localRepository
+     | The path to the local repository maven will use to store artifacts.
+     |
+     | Default: ${user.home}/.m2/repository
+    <localRepository>/path/to/local/repo</localRepository>
+    -->
+
+    <pluginGroups></pluginGroups>
+    <proxies></proxies>
+    <servers>
+        <!-- omitted xml -->
+
+        <server>
+            <id>transportoperation-suiteng-suiteng</id>
+            <username>suiteng-1605682980998</username>
+            <password>93d6d58dafbbfe1e10dfc9dce1fb396bce00835e</password>
+
+        </server>
+
+        <server>
+            <id>tencent</id>
+            <username></username>
+            <password></password>
+        </server>
+    </servers>
+
+    <mirrors>
+
+        <mirror>
+
+            <id>tencent</id>
+
+            <name>tencent</name>
+
+            <url>https://mirrors.tencent.com/nexus/repository/maven-public/</url>
+
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+
+
+    <profiles>
+
+        <profile>
+            <id>Repository Proxy</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+
+                    <!--必须与 settings.xml 的 id 一致-->
+                    <id>transportoperation-suiteng-suiteng</id>
+                    <name>suiteng</name>
+                    <url>https://transportoperation-maven.pkg.coding.net/repository/suiteng/suiteng/</url>
+
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+
+        <profile>
+            <id>nexus</id>
+            <repositories>
+                <repository>
+
+                    <id>tencent_snapshots</id>
+
+                    <name>tencent_snapshots</name>
+
+                    <url>https://mirrors.tencent.com/repository/maven/snapshots</url>
+
+                    <layout>default</layout>
+
+                    <releases>
+
+                        <enabled>false</enabled>
+
+                        <updatePolicy>always</updatePolicy>
+
+                        <checksumPolicy>warn</checksumPolicy>
+                    </releases>
+
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </snapshots>
+                </repository>
+
+                <repository>
+                    <id>tencent_public</id>
+                    <name>tencent_public</name>
+                    <url>https://mirrors.tencent.com/repository/maven/tencent_public/</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </snapshots>
+                </repository>
+
+                <repository>
+                    <id>tsf</id>
+                    <name>tsf</name>
+                    <url>https://mirrors.tencent.com/repository/maven/tsf</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </snapshots>
+                </repository>
+
+                <repository>
+                    <id>tsf-snapshot</id>
+                    <name>tsf-snapshot</name>
+                    <url>https://mirrors.tencent.com/repository/maven/tsf-snapshot</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </snapshots>
+                </repository>
+
+                <repository>
+                    <id>thirdparty</id>
+                    <name>thirdparty</name>
+                    <url>https://mirrors.tencent.com/repository/maven/thirdparty/</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </snapshots>
+                </repository>
+
+                <repository>
+                    <id>thirdparty-snapshots</id>
+                    <name>thirdparty-snapshots</name>
+                    <url>https://mirrors.tencent.com/repository/maven/thirdparty-snapshots/</url>
+                    <layout>default</layout>
+                    <releases>
+                        <enabled>false</enabled>
+                        <updatePolicy>daily</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>always</updatePolicy>
+                        <checksumPolicy>warn</checksumPolicy>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>qcloud-plugin-central</id>
+                    <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>nexus</activeProfile>
+        <activeProfile>Repository Proxy</activeProfile>
+
+    </activeProfiles>
+
+</settings>

@@ -11,15 +11,13 @@ import java.util.concurrent.Future;
 @Slf4j
 public class ImageQueryParams {
 
-    TagTranslation tagTranslation;
-
-
-    private String cat = "Anime";
     private final Pair<Integer, Integer> wp;
     private final Pair<Integer, Integer> hp;
     private final Pair<Integer, Integer> fp;
     private final List<Integer> ratingList;
     private final List<Pair<Integer, String>> tagList;
+    TagTranslation tagTranslation;
+    private String cat = "Anime";
     private String shape = "";
     private Boolean trans = false;
 
