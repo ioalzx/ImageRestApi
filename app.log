@@ -6172,3 +6172,587 @@ Unconditional classes:
 2021-06-02 18:13:54.178  INFO 12828 --- [tTrans-thread-2] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 鼠标, Mouse )
 2021-06-02 18:13:54.178  INFO 12828 --- [tTrans-thread-4] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 树木, Trees )
 2021-06-02 18:13:54.178  INFO 12828 --- [tTrans-thread-3] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 食物, food )
+2021-06-04 16:22:51.827  INFO 17832 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 17832 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-04 16:22:51.830  INFO 17832 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-04 16:22:51.876  INFO 17832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-04 16:22:51.876  INFO 17832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-04 16:22:52.562  INFO 17832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-04 16:22:52.563  INFO 17832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-04 16:22:52.589  INFO 17832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-06-04 16:22:52.956  INFO 17832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-04 16:22:52.962  INFO 17832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 16:22:52.962  INFO 17832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-04 16:22:53.022  INFO 17832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 16:22:53.022  INFO 17832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1145 ms
+2021-06-04 16:22:54.021  INFO 17832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-04 16:22:54.025  INFO 17832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-04 16:22:54.074  INFO 17832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-04 16:22:54.086  INFO 17832 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.87 seconds (JVM running for 3.784)
+2021-06-04 16:22:54.232  INFO 17832 --- [RMI TCP Connection(2)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 16:22:54.232  INFO 17832 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 16:22:54.232  INFO 17832 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 16:22:54.234  INFO 17832 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-04 16:22:54.488  INFO 17832 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 18:30:21.050  INFO 19732 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 19732 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-04 18:30:21.053  INFO 19732 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-04 18:30:21.092  INFO 19732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-04 18:30:21.093  INFO 19732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-04 18:30:21.714  INFO 19732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-04 18:30:21.716  INFO 19732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-04 18:30:21.732  INFO 19732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-04 18:30:22.120  INFO 19732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-04 18:30:22.125  INFO 19732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 18:30:22.126  INFO 19732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-04 18:30:22.184  INFO 19732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 18:30:22.184  INFO 19732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1090 ms
+2021-06-04 18:30:23.104  INFO 19732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-04 18:30:23.108  INFO 19732 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-04 18:30:23.149  INFO 19732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-04 18:30:23.161  INFO 19732 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.487 seconds (JVM running for 3.155)
+2021-06-04 18:30:23.671  INFO 19732 --- [RMI TCP Connection(2)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 18:30:23.671  INFO 19732 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 18:30:23.671  INFO 19732 --- [RMI TCP Connection(3)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 18:30:23.672  INFO 19732 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-04 18:30:24.918  INFO 19732 --- [RMI TCP Connection(3)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 18:30:35.421  INFO 19732 --- [tTrans-thread-1] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-04 18:31:38.449  INFO 19732 --- [tTrans-thread-4] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 剑, Sword )
+2021-06-04 18:36:07.544  INFO 17756 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 17756 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-04 18:36:07.547  INFO 17756 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-04 18:36:07.601  INFO 17756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-04 18:36:07.601  INFO 17756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-04 18:36:08.246  INFO 17756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-04 18:36:08.248  INFO 17756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-04 18:36:08.260  INFO 17756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-04 18:36:08.611  INFO 17756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-04 18:36:08.616  INFO 17756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 18:36:08.616  INFO 17756 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-04 18:36:08.671  INFO 17756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 18:36:08.672  INFO 17756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2021-06-04 18:36:09.566  INFO 17756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-04 18:36:09.570  INFO 17756 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-04 18:36:09.611  INFO 17756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-04 18:36:09.624  INFO 17756 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.51 seconds (JVM running for 3.214)
+2021-06-04 18:36:10.171  INFO 17756 --- [RMI TCP Connection(2)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 18:36:10.171  INFO 17756 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 18:36:10.171  INFO 17756 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 18:36:10.172  INFO 17756 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-04 18:36:10.354  INFO 17756 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 18:36:34.786  INFO 8716 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 8716 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-04 18:36:34.788  INFO 8716 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-04 18:36:34.827  INFO 8716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-04 18:36:34.827  INFO 8716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-04 18:36:35.426  INFO 8716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-04 18:36:35.428  INFO 8716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-04 18:36:35.440  INFO 8716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-04 18:36:35.810  INFO 8716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-04 18:36:35.816  INFO 8716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 18:36:35.816  INFO 8716 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-04 18:36:35.875  INFO 8716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 18:36:35.875  INFO 8716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2021-06-04 18:36:36.805  INFO 8716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-04 18:36:36.809  INFO 8716 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-04 18:36:36.856  INFO 8716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-04 18:36:36.867  INFO 8716 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.433 seconds (JVM running for 3.062)
+2021-06-04 18:36:36.979  INFO 8716 --- [RMI TCP Connection(1)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 18:36:36.980  INFO 8716 --- [RMI TCP Connection(1)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 18:36:36.981  INFO 8716 --- [RMI TCP Connection(1)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-04 18:36:36.989  INFO 8716 --- [RMI TCP Connection(3)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 18:36:37.218  INFO 8716 --- [RMI TCP Connection(3)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 18:40:56.647  INFO 5352 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 5352 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-04 18:40:56.650  INFO 5352 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-04 18:40:56.692  INFO 5352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-04 18:40:56.693  INFO 5352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-04 18:40:57.328  INFO 5352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-04 18:40:57.330  INFO 5352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-04 18:40:57.342  INFO 5352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-04 18:40:57.714  INFO 5352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-04 18:40:57.719  INFO 5352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 18:40:57.719  INFO 5352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-04 18:40:57.781  INFO 5352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 18:40:57.781  INFO 5352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2021-06-04 18:40:58.704  INFO 5352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-04 18:40:58.708  INFO 5352 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-04 18:40:58.749  INFO 5352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-04 18:40:58.764  INFO 5352 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.457 seconds (JVM running for 3.094)
+2021-06-04 18:40:59.302  INFO 5352 --- [RMI TCP Connection(2)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 18:40:59.302  INFO 5352 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 18:40:59.302  INFO 5352 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 18:40:59.303  INFO 5352 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-04 18:40:59.497  INFO 5352 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 18:41:10.764  INFO 5352 --- [tTrans-thread-1] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-04 19:44:25.260  INFO 5352 --- [lettuce-nioEventLoop-4-2] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.net.SocketException: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-04 19:44:25.260  INFO 5352 --- [lettuce-nioEventLoop-4-1] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.net.SocketException: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-04 19:44:25.330  INFO 5352 --- [lettuce-eventExecutorLoop-1-6] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /9.134.106.99:6380
+2021-06-04 19:44:25.367  INFO 5352 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ReconnectionHandler    : Reconnected to 9.134.106.99/<unresolved>:6380
+2021-06-04 19:44:25.369  INFO 5352 --- [lettuce-eventExecutorLoop-1-5] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /9.134.106.99:6380
+2021-06-04 19:44:25.425  INFO 5352 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ReconnectionHandler    : Reconnected to 9.134.106.99/<unresolved>:6380
+2021-06-04 19:44:26.361  INFO 5352 --- [lettuce-nioEventLoop-4-4] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.net.SocketException: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-04 19:44:26.362  INFO 5352 --- [lettuce-nioEventLoop-4-3] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.net.SocketException: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:16.520  INFO 5352 --- [lettuce-eventExecutorLoop-1-7] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-05 20:11:16.520  INFO 5352 --- [lettuce-eventExecutorLoop-1-1] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-05 20:11:17.137  WARN 5352 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: Network is unreachable: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /9.134.106.99:6380
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:17.137  WARN 5352 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: Network is unreachable: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /9.134.106.99:6380
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:19.095  WARN 5352 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d27m18s719ms441µs500ns).
+2021-06-05 20:11:22.694  INFO 5352 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-05 20:11:22.694  INFO 5352 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-05 20:11:22.696  WARN 5352 --- [lettuce-nioEventLoop-4-3] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: No route to host: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /9.134.106.99:6380
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:22.696  WARN 5352 --- [lettuce-nioEventLoop-4-4] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: No route to host: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /9.134.106.99:6380
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:26.822  INFO 5352 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ReconnectionHandler    : Reconnected to 9.134.106.99/<unresolved>:6380
+2021-06-05 20:11:26.824  INFO 5352 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ReconnectionHandler    : Reconnected to 9.134.106.99/<unresolved>:6380
+2021-06-05 20:11:44.210  INFO 5352 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.net.SocketException: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:44.210  INFO 5352 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : null Unexpected exception during request: java.net.SocketException: Connection reset
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:44.305  INFO 5352 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /9.134.106.99:6380
+2021-06-05 20:11:44.305  INFO 5352 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /9.134.106.99:6380
+2021-06-05 20:11:44.307  WARN 5352 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: Network is unreachable: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /9.134.106.99:6380
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-05 20:11:44.307  WARN 5352 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: Network is unreachable: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /9.134.106.99:6380
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-07 10:11:33.086  INFO 5352 --- [lettuce-eventExecutorLoop-1-3] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-07 10:11:33.088  WARN 5352 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: Network is unreachable: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /9.134.106.99:6380
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-07 10:11:33.091  INFO 5352 --- [lettuce-eventExecutorLoop-1-4] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-07 10:11:33.108  WARN 5352 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : Cannot reconnect to [9.134.106.99/<unresolved>:6380]: Network is unreachable: no further information: /9.134.106.99:6380
+
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /9.134.106.99:6380
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-07 10:11:36.246  WARN 5352 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d14h17s172ms763µs800ns).
+2021-06-07 10:11:40.974  INFO 5352 --- [lettuce-eventExecutorLoop-1-8] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-07 10:11:40.974  INFO 5352 --- [lettuce-eventExecutorLoop-1-2] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was 9.134.106.99/<unresolved>:6380
+2021-06-07 10:11:41.005  INFO 5352 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ReconnectionHandler    : Reconnected to 9.134.106.99/<unresolved>:6380
+2021-06-07 10:11:41.011  INFO 5352 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ReconnectionHandler    : Reconnected to 9.134.106.99/<unresolved>:6380
+2021-06-08 11:43:18.313  INFO 13112 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 13112 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-08 11:43:18.319  INFO 13112 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-08 11:43:18.358  INFO 13112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 11:43:18.358  INFO 13112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-08 11:43:19.193  INFO 13112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-08 11:43:19.193  INFO 13112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-08 11:43:19.203  INFO 13112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-08 11:43:19.610  INFO 13112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-08 11:43:19.620  INFO 13112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 11:43:19.620  INFO 13112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 11:43:19.684  INFO 13112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-08 11:43:19.684  INFO 13112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1326 ms
+2021-06-08 11:43:20.737  INFO 13112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 11:43:20.747  INFO 13112 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-08 11:43:20.797  INFO 13112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-08 11:43:20.807  INFO 13112 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.982 seconds (JVM running for 3.791)
+2021-06-08 11:43:21.189  INFO 13112 --- [RMI TCP Connection(2)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 11:43:21.189  INFO 13112 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 11:43:21.189  INFO 13112 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 11:43:21.189  INFO 13112 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-08 11:43:21.438  INFO 13112 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 11:43:41.043  INFO 13112 --- [tTrans-thread-1] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-08 11:44:02.175 ERROR 13112 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.ioalzx.animeimagerestapi.entity.Image.getDhash()" because "img" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.ioalzx.animeimagerestapi.entity.Image.getDhash()" because "img" is null
+	at com.ioalzx.animeimagerestapi.entity.ImageWithTags.<init>(ImageWithTags.java:14)
+	at com.ioalzx.animeimagerestapi.controller.ImageInfoController.findRandom(ImageInfoController.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+2021-06-08 11:48:20.895  INFO 10256 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 10256 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-08 11:48:20.901  INFO 10256 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-08 11:48:20.964  INFO 10256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 11:48:20.964  INFO 10256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-08 11:48:21.636  INFO 10256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-08 11:48:21.636  INFO 10256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-08 11:48:21.656  INFO 10256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-08 11:48:22.065  INFO 10256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-08 11:48:22.075  INFO 10256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 11:48:22.075  INFO 10256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 11:48:22.129  INFO 10256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-08 11:48:22.129  INFO 10256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1163 ms
+2021-06-08 11:48:23.217  INFO 10256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 11:48:23.217  INFO 10256 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-08 11:48:23.262  INFO 10256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-08 11:48:23.274  INFO 10256 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.76 seconds (JVM running for 3.474)
+2021-06-08 11:48:23.630  INFO 10256 --- [RMI TCP Connection(2)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 11:48:23.630  INFO 10256 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 11:48:23.632  INFO 10256 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-08 11:48:23.632  INFO 10256 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 11:48:23.829  INFO 10256 --- [RMI TCP Connection(1)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 11:48:48.048  INFO 10256 --- [tTrans-thread-1] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-08 12:00:27.215  INFO 1620 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 1620 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-08 12:00:27.215  INFO 1620 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-08 12:00:27.257  INFO 1620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 12:00:27.257  INFO 1620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-08 12:00:27.875  INFO 1620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-08 12:00:27.875  INFO 1620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-08 12:00:27.885  INFO 1620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-06-08 12:00:28.221  INFO 1620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-08 12:00:28.231  INFO 1620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 12:00:28.231  INFO 1620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 12:00:28.291  INFO 1620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-08 12:00:28.291  INFO 1620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2021-06-08 12:00:29.255  INFO 1620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 12:00:29.255  INFO 1620 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-08 12:00:29.295  INFO 1620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-08 12:00:29.305  INFO 1620 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.45 seconds (JVM running for 3.228)
+2021-06-08 12:00:29.647  INFO 1620 --- [RMI TCP Connection(2)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 12:00:29.647  INFO 1620 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 12:00:29.647  INFO 1620 --- [RMI TCP Connection(3)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 12:00:29.649  INFO 1620 --- [RMI TCP Connection(2)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-08 12:00:29.877  INFO 1620 --- [RMI TCP Connection(3)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 12:00:38.552  INFO 1620 --- [tTrans-thread-1] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-08 12:00:43.554  INFO 1620 --- [tTrans-thread-3] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-08 12:00:45.780  INFO 1620 --- [tTrans-thread-5] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-08 12:01:45.829  INFO 5576 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 5576 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-08 12:01:45.832  INFO 5576 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-08 12:01:45.878  INFO 5576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 12:01:45.878  INFO 5576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-08 12:01:46.587  INFO 5576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-08 12:01:46.587  INFO 5576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-08 12:01:46.607  INFO 5576 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-08 12:01:46.997  INFO 5576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-08 12:01:46.997  INFO 5576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 12:01:47.007  INFO 5576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 12:01:47.057  INFO 5576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-08 12:01:47.057  INFO 5576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2021-06-08 12:01:48.052  INFO 5576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 12:01:48.060  INFO 5576 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-08 12:01:48.103  INFO 5576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-08 12:01:48.121  INFO 5576 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.785 seconds (JVM running for 3.626)
+2021-06-08 12:01:48.218  INFO 5576 --- [RMI TCP Connection(3)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 12:01:48.218  INFO 5576 --- [RMI TCP Connection(3)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 12:01:48.218  INFO 5576 --- [RMI TCP Connection(2)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 12:01:48.218  INFO 5576 --- [RMI TCP Connection(3)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-08 12:01:48.401  INFO 5576 --- [RMI TCP Connection(2)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 16:54:05.766  INFO 5576 --- [tTrans-thread-1] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-08 16:54:05.799  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@382bb80e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.799  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2607e6e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.799  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@15d51dff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.799  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@70db2c83 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.799  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3055eeee (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.799  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31476584 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.804  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c40bcb6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.804  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25563689 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.805  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a6b9e53 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 16:54:05.805  WARN 5576 --- [http-nio-8081-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@300aa7df (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-08 17:31:57.340  INFO 18524 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 18524 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-08 17:31:57.345  INFO 18524 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-08 17:31:57.385  INFO 18524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 17:31:57.385  INFO 18524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-08 17:31:57.996  INFO 18524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-08 17:31:57.996  INFO 18524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-08 17:31:58.006  INFO 18524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-06-08 17:31:58.354  INFO 18524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-08 17:31:58.354  INFO 18524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 17:31:58.354  INFO 18524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 17:31:58.411  INFO 18524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-08 17:31:58.421  INFO 18524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2021-06-08 17:31:59.376  INFO 18524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 17:31:59.376  INFO 18524 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-08 17:31:59.422  INFO 18524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-08 17:31:59.442  INFO 18524 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 2.56 seconds (JVM running for 3.325)
+2021-06-08 17:31:59.864  INFO 18524 --- [RMI TCP Connection(1)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 17:31:59.864  INFO 18524 --- [RMI TCP Connection(1)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 17:31:59.864  INFO 18524 --- [RMI TCP Connection(2)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 17:31:59.865  INFO 18524 --- [RMI TCP Connection(1)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-08 17:32:00.106  INFO 18524 --- [RMI TCP Connection(2)-192.168.255.10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-09 14:56:03.392  INFO 16164 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Starting AnimeImageRestApiApplication using Java 15.0.2 on timxzhao-PC0 with PID 16164 (D:\Java\AnimeImageRestApi\target\classes started by timxzhao in D:\Java\AnimeImageRestApi)
+2021-06-09 14:56:03.397  INFO 16164 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : No active profile set, falling back to default profiles: default
+2021-06-09 14:56:03.436  INFO 16164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-09 14:56:03.436  INFO 16164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-09 14:56:04.147  INFO 16164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-09 14:56:04.147  INFO 16164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-09 14:56:04.167  INFO 16164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-06-09 14:56:04.588  INFO 16164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-09 14:56:04.604  INFO 16164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-09 14:56:04.604  INFO 16164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-09 14:56:04.667  INFO 16164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-09 14:56:04.667  INFO 16164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1230 ms
+2021-06-09 14:56:05.153  INFO 16164 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-06-09 14:56:06.114  INFO 16164 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-06-09 14:56:06.747  INFO 16164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-09 14:56:06.752  INFO 16164 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2021-06-09 14:56:06.808  INFO 16164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-09 14:56:06.818  INFO 16164 --- [restartedMain] c.i.a.AnimeImageRestApiApplication       : Started AnimeImageRestApiApplication in 3.819 seconds (JVM running for 4.574)
+2021-06-09 14:56:07.218  INFO 16164 --- [RMI TCP Connection(4)-192.168.255.10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-09 14:56:07.218  INFO 16164 --- [RMI TCP Connection(4)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-09 14:56:07.218  INFO 16164 --- [RMI TCP Connection(4)-192.168.255.10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-09 14:56:17.035  INFO 16164 --- [tTrans-thread-1] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )
+2021-06-09 14:56:19.446  INFO 16164 --- [tTrans-thread-3] c.i.a.util.TagTranslation                : Tag Translation cache hit! ( 贞德, Jeanne )

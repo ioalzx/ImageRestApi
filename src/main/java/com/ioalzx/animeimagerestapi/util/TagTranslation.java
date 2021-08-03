@@ -64,6 +64,7 @@ public class TagTranslation {
         } catch (TencentCloudSDKException e) {
             log.error(e.toString());
             return new AsyncResult<>(tag);
+
         }
 
         redis.set(tag, resp.getTargetText());
